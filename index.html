@@ -22,12 +22,15 @@
     <link rel="stylesheet" href="./css/form-input.css">
     <link rel="stylesheet" href="css/social.css">
     <link rel="stylesheet" href="css/form-button.css">
+    <link rel="stylesheet" href="css/overlay-cont.css">
+    <link rel="stylesheet" href="css/overlay.css">
+    <script src="js/login.js" defer></script>
     <title>Projeto Login</title>
 </head>
 
 <body>
     <main>
-        <div class="login-container">
+        <div class="login-container" id="login-container">
             <div class="form-container">
                 <form class="form form-login">
                     <h2 class="form-title">Entrar com</h2>
@@ -76,6 +79,18 @@
                     </div>
                     <button class="form-button">Cadastrar</button>
                 </form>
+            </div>
+            <div class="overlay-container">
+                <div class="overlay">
+                    <h2 class="form-title form-title-light">Já tem conta?</h2>
+                    <p class="fomr-text">Para entrar na nossa plataforma com suas informações</p>
+                    <button class="form-button form-button-light ">Entrar</button>
+                </div>
+                <div class="overlay">
+                    <h2 class="form-title form-title-light">Olá Aluno!</h2>
+                    <p class="fomr-text">Cadastre-se e comece a usar a nossa plataforma on-line</p>
+                    <button class="form-button form-button-light" id="open-register">Cadastrar</button>
+                </div>
             </div>
         </div>
     </main>
