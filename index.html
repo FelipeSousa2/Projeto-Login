@@ -25,6 +25,7 @@
     <link rel="stylesheet" href="css/overlay-cont.css">
     <link rel="stylesheet" href="css/overlay.css">
     <script src="js/login.js" defer></script>
+    <link rel="stylesheet" href="css/mobile-text.css">
     <title>Projeto Login</title>
 </head>
 
@@ -53,12 +54,14 @@
                         <input type="password" class="form-input" placeholder="Senha">
                     </div>
                     <a href="#" class="form-link">Esqueceu a senha?</a>
-                    <button class="form-button">Logar</button>
-
+                    <button type="button" class="form-button">Logar</button>
+                    <p class="mobile-text">Não tem conta?<a id="open-register-mobile" href="#">
+                        registre-se
+                    </a></p>
                 </form>
                 <form class="form form-register">
                     <h2 class="form-title">Criar conta</h2>
-                    <div class="form-social">
+                    <div id="form-social">
                         <a href="#" class="social-icon">
 
                             <i class="fa-brands fa-facebook-f"></i>
@@ -77,7 +80,10 @@
                         <input type="email" class="form-input" placeholder="E-mail">
                         <input type="password" class="form-input" placeholder="Senha">
                     </div>
-                    <button class="form-button">Cadastrar</button>
+                    <button type="button" class="form-button">Cadastrar</button>
+                    <p class="mobile-text">Já tem conta?<a id="open-login-mobile" href="#">
+                        Login
+                    </a></p>
                 </form>
             </div>
             <div class="overlay-container">

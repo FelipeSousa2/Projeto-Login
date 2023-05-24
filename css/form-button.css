@@ -22,3 +22,12 @@
     border: 2px  solid var(--secundary-color);
     color: var(--secundary-color);
 }
+
+
+@media(max-width:768px) {
+    .form-button {
+        background-color: var(--primary-color);
+        color: var(--secundary-color);
+        border-color: var(--secundary-color);
+    }
+}
